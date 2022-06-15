@@ -1,0 +1,29 @@
+Menambah fungsi reduction
+
+src/redux/reducers
+- buat file baru ...Reducer.js
+- import ke index.js
+
+src/redux/actions
+- buat file baru ...Action.js
+
+===
+
+- src > pages > register.js
+- di const tambah dispatch(register(userData));
+- src > redux > actions > authAction.js
+- buat const baru (register)
+- isi dengan try catch
+- src > pages > register.js
+- import fungsi register
+
+===
+- tambah GLOBALTYPES baru 
+    PEER: 'PEER',
+- buat file reducer baru
+    peerReducer.js
+- tambah di redux/reducer/index.js
+    buat import untuk panggil peerReducer
+- cek apakah sudah muncul di redux
+- panggil dispatch tipe GLOBALTYPES.PEER ke App.js
+

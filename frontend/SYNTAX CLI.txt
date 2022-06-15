@@ -1,0 +1,9 @@
+npx create-react-app medsos-clone
+
+npm i axios react-router-dom react-redux redux-thunk redux-devtools-extension moment
+npm install bootstrap
+npm install material-design-icons
+
+npm i react-share
+npm i socket.io-client
+npm i peerjs
