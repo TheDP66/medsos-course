@@ -18,7 +18,7 @@ export const postDataAPI = async (url, post, token) => {
     headers: {
       Authorization: token,
     },
-    withCredentials: true,
+    // withCredentials: true,
   });
 
   return res;

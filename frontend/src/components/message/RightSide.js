@@ -273,7 +273,7 @@ const RightSide = () => {
       <div
         className="chat_container"
         style={{
-          height: media.length > 0 ? "calc(100% - 180px)" : "",
+          height: media.length > 0 ? "calc(100%_-_180px)" : "",
         }}
       >
         <div className="chat_display" ref={refDisplay}>
